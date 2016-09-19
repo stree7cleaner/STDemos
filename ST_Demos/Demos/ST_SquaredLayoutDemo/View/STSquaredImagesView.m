@@ -170,7 +170,7 @@
     imageV.frame = frame;
     [imageV sd_setImageWithURL:[NSURL URLWithString:imageUrlStr]
               placeholderImage:[UIImage st_jpgNamed:@"icon_imageLoad_fail"]
-                       options:SDWebImageLowPriority|SDWebImageRetryFailed|SDWebImageDelayPlaceholder
+                       options:SDWebImageRetryFailed|SDWebImageDelayPlaceholder
      ];
 }
 
